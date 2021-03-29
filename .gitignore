@@ -1,3 +1,4 @@
 .vscode
 src/*.ttf
 src/*-[0-9][0-9]
+bin
