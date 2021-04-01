@@ -17,12 +17,12 @@ Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
 XUID: [1021 468 1989134132 12499908]
 StyleMap: 0x0040
-FSType: 1
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: -1186206609
-ModificationTime: 1616996697
+CreationTime: 896603991
+ModificationTime: 1617171594
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -52,8 +52,8 @@ OS2SupXOff: 0
 OS2SupYOff: 453
 OS2StrikeYSize: 50
 OS2StrikeYPos: 259
-OS2Vendor: 'Alts'
-OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+OS2Vendor: '    '
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 NPUSHB
@@ -818,6 +818,8 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 25 9
+BeginPrivate: 0
+EndPrivate
 BeginChars: 1114115 194
 
 StartChar: .notdef
