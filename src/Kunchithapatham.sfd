@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617343346
+ModificationTime: 1617406850
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2SupYOff: 453
 OS2StrikeYSize: 50
 OS2StrikeYPos: 259
 OS2Vendor: '    '
+Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -932,8 +933,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: numbersign
-Encoding: 35 35 4
+StartChar: uniE10D
+Encoding: 57613 57613 4
 Width: 595
 Flags: MW
 LayerCount: 2
@@ -1006,10 +1007,11 @@ SplineSet
  558 -57 l 1,82,-1
  558 -111 l 1,0,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11328 u1134D u11326
 EndChar
 
-StartChar: dollar
-Encoding: 36 36 5
+StartChar: uniE112
+Encoding: 57618 57618 5
 Width: 725
 Flags: MW
 LayerCount: 2
@@ -1061,10 +1063,11 @@ SplineSet
  594 534 l 1,54,-1
  595 20 l 1,0,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11328 u1134D u11335
 EndChar
 
-StartChar: percent
-Encoding: 37 37 6
+StartChar: uniE115
+Encoding: 57621 57621 6
 Width: 990
 Flags: MW
 LayerCount: 2
@@ -1205,10 +1208,11 @@ SplineSet
  193 177 l 1,170,-1
  193 197 l 2,149,150
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11337 u1134D u1131F
 EndChar
 
-StartChar: ampersand
-Encoding: 38 38 7
+StartChar: uniE117
+Encoding: 57623 57623 7
 Width: 1260
 Flags: MW
 LayerCount: 2
@@ -1497,8 +1501,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: asterisk
-Encoding: 42 42 11
+StartChar: uniE402
+Encoding: 58370 58370 11
 Width: 612
 Flags: MW
 LayerCount: 2
@@ -1597,8 +1601,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: plus
-Encoding: 43 43 12
+StartChar: uniE10F
+Encoding: 57615 57615 12
 Width: 792
 Flags: MW
 LayerCount: 2
@@ -1759,8 +1763,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: slash
-Encoding: 47 47 16
+StartChar: uniE109
+Encoding: 57609 57609 16
 Width: 1350
 Flags: MW
 LayerCount: 2
@@ -2012,6 +2016,7 @@ SplineSet
  1104 163 1104 163 1104.5 158 c 128,-1,335
  1105 153 1105 153 1107 149 c 1,137,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u1131C u1134D u1131E
 EndChar
 
 StartChar: u1134D
@@ -2653,8 +2658,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: colon
-Encoding: 58 58 27
+StartChar: uniE10E
+Encoding: 57614 57614 27
 Width: 936
 Flags: MW
 LayerCount: 2
@@ -2873,6 +2878,7 @@ SplineSet
  211 190 211 190 210 201 c 128,-1,275
  209 212 209 212 205 225 c 0,255,256
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11339 u1134D u1132E
 EndChar
 
 StartChar: u11302
@@ -2924,8 +2930,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: less
-Encoding: 60 60 29
+StartChar: uniE401
+Encoding: 58369 58369 29
 Width: 777
 Flags: MW
 LayerCount: 2
@@ -3003,8 +3009,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: greater
-Encoding: 62 62 31
+StartChar: uniE110
+Encoding: 57616 57616 31
 Width: 1280
 Flags: MW
 LayerCount: 2
@@ -3182,8 +3188,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: at
-Encoding: 64 64 33
+StartChar: uniE111
+Encoding: 57617 57617 33
 Width: 1112
 Flags: MW
 LayerCount: 2
@@ -3256,6 +3262,7 @@ SplineSet
  926 497 926 497 970 466 c 0,93,94
  1027 424 1027 424 1052 347 c 1,0,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11328 u1134D u11327
 EndChar
 
 StartChar: u11320
@@ -3287,8 +3294,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: B
-Encoding: 66 66 35
+StartChar: uniE100
+Encoding: 57600 57600 35
 Width: 1020
 Flags: MW
 LayerCount: 2
@@ -3423,10 +3430,11 @@ SplineSet
  516 310 516 310 513 323 c 128,-1,179
  510 336 510 336 503 358 c 0,55,56
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11328 u1134D u11324
 EndChar
 
-StartChar: C
-Encoding: 67 67 36
+StartChar: uniE101
+Encoding: 57601 57601 36
 Width: 995
 Flags: MW
 LayerCount: 2
@@ -3499,6 +3507,7 @@ SplineSet
  63 -3 l 2,88,89
  63 13 63 13 72 16 c 2,15,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11328 u1134D u11328
 EndChar
 
 StartChar: u11324
@@ -4393,8 +4402,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: M
-Encoding: 77 77 46
+StartChar: uniE400
+Encoding: 58368 58368 46
 Width: 798
 Flags: MW
 LayerCount: 2
@@ -4503,8 +4512,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: N
-Encoding: 78 78 47
+StartChar: uniE10B
+Encoding: 57611 57611 47
 Width: 1065
 Flags: MW
 LayerCount: 2
@@ -4602,6 +4611,7 @@ SplineSet
  747 -190 747 -190 775 -181 c 128,-1,140
  803 -172 803 -172 800 -150 c 0,17,18
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u1131E u1134D u1131C
 EndChar
 
 StartChar: u1131C
@@ -5428,8 +5438,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: V
-Encoding: 86 86 55
+StartChar: uniE10A
+Encoding: 57610 57610 55
 Width: 1295
 Flags: MW
 LayerCount: 2
@@ -5565,6 +5575,7 @@ SplineSet
  759 315 759 315 760 314 c 2,174,-1
  846 308 l 2,41,42
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u1131E u1134D u1131A
 EndChar
 
 StartChar: u11308
@@ -5636,8 +5647,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: X
-Encoding: 88 88 57
+StartChar: uniE108
+Encoding: 57608 57608 57
 Width: 920
 Flags: MW
 LayerCount: 2
@@ -5773,6 +5784,7 @@ SplineSet
  209 321 209 321 245 321 c 0,174,175
  299 321 299 321 326 369 c 1,160,161
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11326 u1134D u11327
 EndChar
 
 StartChar: u11316
@@ -5841,8 +5853,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Z
-Encoding: 90 90 59
+StartChar: uniE107
+Encoding: 57607 57607 59
 Width: 1190
 Flags: MW
 LayerCount: 2
@@ -5962,6 +5974,7 @@ SplineSet
  583 373 l 1,153,-1
  560 305 l 1,43,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11324 u1134D u11335
 EndChar
 
 StartChar: u11340
@@ -6138,8 +6151,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: asciicircum
-Encoding: 94 94 63
+StartChar: uniE104
+Encoding: 57604 57604 63
 Width: 889
 Flags: MW
 LayerCount: 2
@@ -6267,6 +6280,7 @@ SplineSet
  191 297 191 297 203 304 c 128,-1,168
  215 311 215 311 218 328 c 0,156,157
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u1132E u1134D u1132E
 EndChar
 
 StartChar: u1131F
@@ -7245,8 +7259,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: m
-Encoding: 109 109 75
+StartChar: uniE10C
+Encoding: 57612 57612 75
 Width: 1228
 Flags: MW
 LayerCount: 2
@@ -7432,6 +7446,7 @@ SplineSet
  467 364 467 364 474 387 c 2,233,-1
  494 432 l 1,93,94
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11315 u1134D u11337
 EndChar
 
 StartChar: u11333
@@ -8676,8 +8691,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: braceleft
-Encoding: 123 123 89
+StartChar: uniE113
+Encoding: 57619 57619 89
 Width: 1057
 Flags: MW
 LayerCount: 2
@@ -8822,6 +8837,7 @@ SplineSet
  515 3 515 3 503 12 c 0,177,178
  483 26 483 26 465 56 c 0,61,62
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11315 u1134D u11324
 EndChar
 
 StartChar: bar
@@ -8872,8 +8888,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: braceright
-Encoding: 125 125 91
+StartChar: uniE102
+Encoding: 57602 57602 91
 Width: 1106
 Flags: MW
 LayerCount: 2
@@ -8972,10 +8988,11 @@ SplineSet
  318 352 l 1,123,-1
  504 352 l 1,31,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11324 u1134D u11325
 EndChar
 
-StartChar: asciitilde
-Encoding: 126 126 92
+StartChar: uniE106
+Encoding: 57606 57606 92
 Width: 784
 Flags: MW
 LayerCount: 2
@@ -9062,6 +9079,7 @@ SplineSet
  657 525 l 1,107,-1
  657 -18 l 1,13,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 1-1" u11326 u1134D u11335
 EndChar
 
 StartChar: u1133D
