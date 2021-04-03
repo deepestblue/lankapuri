@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617428390
+ModificationTime: 1617432700
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -60,6 +60,7 @@ Lookup: 4 0 0 "'pstf' Post Base Forms lookup 8" { "'pstf' Post Base Forms lookup
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants lookup 10" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Alternate i/I markers" { "Alternate i/I markers-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 6" { "'psts' Post Base Substitutions lookup 6-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 2" { "'haln' Halant Forms lookup 2-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -1724,6 +1725,7 @@ SplineSet
  495 462 l 1,90,-1
  495 318 l 1,21,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 10-1" u11324 uniE202
 EndChar
 
 StartChar: u11303
@@ -3121,6 +3123,7 @@ SplineSet
  412 -159 412 -159 324 -137 c 0,84,85
  221 -110 221 -110 128 -35 c 1,15,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 10-1" u11336 uniE202
 EndChar
 
 StartChar: u11319
@@ -11075,6 +11078,7 @@ SplineSet
  -311 -646 l 2,86,87
  -302 -646 -302 -646 -282 -641 c 0,19,20
 EndSplineSet
+LCarets2: 1 0
 Substitution2: "Second stack to third stack-1" uniE524
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11324
 EndChar
@@ -12780,6 +12784,7 @@ SplineSet
  -601 -294 -601 -294 -597.5 -284.5 c 128,-1,236
  -594 -275 -594 -275 -586 -261 c 0,92,93
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D uniE10C
 EndChar
 
@@ -12869,6 +12874,7 @@ SplineSet
  -260 -230 l 1,98,-1
  -260 -346 l 1,21,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 10-1" uniE324 uniE202
 EndChar
 
 StartChar: uniE386
