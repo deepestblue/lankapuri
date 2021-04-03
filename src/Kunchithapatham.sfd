@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617408488
+ModificationTime: 1617413569
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,9 +55,18 @@ OS2StrikeYPos: 259
 OS2Vendor: '    '
 Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
+Lookup: 6 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 2" { "'haln' Halant Forms lookup 2-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'blwf' Below Base Forms lookup 4-1" 0 0 0 1
+ 1 1 0
+  Coverage: 255 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
+  BCoverage: 255 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
+ 1
+  SeqLookup: 0 "Second stack to third stack"
+EndFPST
 TtTable: prep
 NPUSHB
  1
@@ -9220,6 +9229,7 @@ SplineSet
  -309 -394 -309 -394 -313.5 -394.5 c 128,-1,147
  -318 -395 -318 -395 -322 -396 c 2,66,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE515
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11315
 EndChar
 
@@ -9284,6 +9294,7 @@ SplineSet
  -595 -570 -595 -570 -575 -553.5 c 128,-1,76
  -555 -537 -555 -537 -555 -514 c 0,65,66
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE516
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11316
 EndChar
 
@@ -9346,6 +9357,7 @@ SplineSet
  -113 -185 -113 -185 -84 -242 c 1,67,-1
  -83 -358 l 1,0,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE517
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11317
 EndChar
 
@@ -9461,6 +9473,7 @@ SplineSet
  -593 -487 l 1,122,-1
  -591 -463 l 1,100,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE518
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11318
 EndChar
 
@@ -9575,6 +9588,7 @@ SplineSet
  -333 -552 l 1,142,-1
  -410 -552 l 2,16,17
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE519
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11319
 EndChar
 
@@ -9687,6 +9701,7 @@ SplineSet
  -390 -570 -390 -570 -407 -578 c 1,134,-1
  -96 -578 l 1,28,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE51A
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1131A
 EndChar
 
@@ -9816,6 +9831,7 @@ SplineSet
  -568 -573 -568 -573 -579 -579 c 1,158,-1
  -270 -578 l 1,40,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE51B
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1131B
 EndChar
 
@@ -9913,6 +9929,7 @@ SplineSet
  -453 -400 -453 -400 -464 -385 c 0,137,138
  -472 -367 -472 -367 -472 -349 c 0,124,125
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE51C
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1131C
 EndChar
 
@@ -9992,6 +10009,7 @@ SplineSet
  -173 -192 l 1,83,-1
  -166 -176 l 1,4,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE51D
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1131D
 EndChar
 
@@ -10134,6 +10152,7 @@ SplineSet
  -530 -445 -530 -445 -513 -430.5 c 128,-1,176
  -496 -416 -496 -416 -496 -392 c 0,165,166
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE51E
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1131E
 EndChar
 
@@ -10497,6 +10516,7 @@ SplineSet
  -782 -535 l 1,9,-1
  24 -535 l 1,0,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE51F
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1131F
 EndChar
 
@@ -10529,6 +10549,7 @@ SplineSet
  -198 -481 -198 -481 -186 -451 c 128,-1,30
  -174 -421 -174 -421 -174 -386 c 0,16,17
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE520
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11320
 EndChar
 
@@ -10667,6 +10688,7 @@ SplineSet
  -490 -254 l 2,173,174
  -459 -273 -459 -273 -453 -289 c 2,22,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE521
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11321
 EndChar
 
@@ -10839,6 +10861,7 @@ SplineSet
  -169 -234 -169 -234 -205 -227 c 2,224,-1
  -237 -224 l 1,38,39
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE522
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11322
 EndChar
 
@@ -11034,6 +11057,7 @@ SplineSet
  -631 -506 l 1,225,-1
  -631 -492 l 1,201,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE523
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11323
 EndChar
 
@@ -11116,6 +11140,7 @@ SplineSet
  -311 -646 l 2,86,87
  -302 -646 -302 -646 -282 -641 c 0,19,20
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE524
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11324
 EndChar
 
@@ -11177,6 +11202,7 @@ SplineSet
  -174 -278 -174 -278 -166.5 -270 c 128,-1,75
  -159 -262 -159 -262 -159 -250 c 2,64,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE525
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11325
 EndChar
 
@@ -11255,6 +11281,7 @@ SplineSet
  -425 -543 -425 -543 -405 -532 c 2,87,-1
  -393 -526 l 2,16,17
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE526
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11326
 EndChar
 
@@ -11298,6 +11325,7 @@ SplineSet
  -138 -212 -138 -212 -146 -200 c 1,45,-1
  -90 -172 l 1,0,1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE527
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11327
 EndChar
 
@@ -11375,6 +11403,7 @@ SplineSet
  -164 -420 -164 -420 -164 -474 c 2,75,-1
  -164 -506 l 1,0,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE528
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11328
 EndChar
 
@@ -11481,6 +11510,7 @@ SplineSet
  -612 -487 l 1,120,-1
  -610 -463 l 1,98,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE52A
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1132A
 EndChar
 
@@ -11599,6 +11629,7 @@ SplineSet
  -513 -397 -513 -397 -508 -419.5 c 128,-1,142
  -503 -442 -503 -442 -503 -466 c 0,35,36
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE52B
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1132B
 EndChar
 
@@ -11662,6 +11693,7 @@ SplineSet
  -420 -198 -420 -198 -453.5 -233 c 128,-1,78
  -487 -268 -487 -268 -504 -330 c 1,14,15
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE52C
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1132C
 EndChar
 
@@ -11814,6 +11846,7 @@ SplineSet
  -464 -430 l 2,183,184
  -464 -403 -464 -403 -472 -376 c 0,164,165
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE52D
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1132D
 EndChar
 
@@ -11927,6 +11960,7 @@ SplineSet
  -263 -318 -263 -318 -259 -306 c 2,135,-1
  -257 -281 l 2,114,115
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE52E
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u1132E
 EndChar
 
@@ -12029,6 +12063,7 @@ SplineSet
  -586 -528 -586 -528 -584 -536 c 2,131,-1
  -578 -558 l 2,0,1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE532
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11332
 EndChar
 
@@ -12108,6 +12143,7 @@ SplineSet
  -446 -480 l 2,97,98
  -446 -462 -446 -462 -450 -451 c 0,77,78
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE535
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11335
 EndChar
@@ -12166,6 +12202,7 @@ SplineSet
  -581 -182 l 1,58,-1
  -540 -181 l 1,13,-1
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE536
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11336
 EndChar
@@ -12279,6 +12316,7 @@ SplineSet
  -537 -571 -537 -571 -519.5 -546.5 c 128,-1,132
  -502 -522 -502 -522 -502 -491 c 0,120,121
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE537
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11337
 EndChar
@@ -12391,6 +12429,7 @@ SplineSet
  -639 -480 l 2,140,141
  -639 -466 -639 -466 -643 -451 c 0,120,121
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE538
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11338
 EndChar
 
@@ -12552,6 +12591,7 @@ SplineSet
  -599 -538 -599 -538 -599 -490 c 0,191,192
  -599 -463 -599 -463 -604 -445 c 0,173,174
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE539
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11339
 EndChar
 
@@ -12611,6 +12651,7 @@ SplineSet
  -768 -537 -768 -537 -752 -550 c 128,-1,71
  -736 -563 -736 -563 -714 -563 c 0,61,62
 EndSplineSet
+Substitution2: "Second stack to third stack-1" uniE533
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11333
 EndChar
 
