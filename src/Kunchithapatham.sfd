@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617436964
+ModificationTime: 1617455191
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -62,12 +62,133 @@ Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  }
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants lookup 10" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Alternate i/I markers" { "Alternate i/I markers-1"  } []
+Lookup: 1 0 0 "Rearrangement 1" { "Rearrangement 1-1"  } []
+Lookup: 1 0 0 "Rearrangement 2" { "Rearrangement 2-1"  } []
+Lookup: 1 0 0 "Rearrangement 3" { "Rearrangement 3-1"  } []
+Lookup: 1 0 0 "Rearrangement 4" { "Rearrangement 4-1"  } []
+Lookup: 1 0 0 "Rearrangement 5" { "Rearrangement 5-1"  } []
+Lookup: 1 0 0 "Rearrangement 6" { "Rearrangement 6-1"  } []
+Lookup: 1 0 0 "Rearrangement 7" { "Rearrangement 7-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21" { "'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22" { "'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Alternate rakara markers 1" { "Alternate rakara markers 1-1"  } []
 Lookup: 1 0 0 "Alternate rakara markers 2" { "Alternate rakara markers 2-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 6" { "'psts' Post Base Substitutions lookup 6-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 2" { "'haln' Halant Forms lookup 2-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 22-1" 0 0 0 7
+ String: 7 uniE480
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 1"
+ String: 7 uniE481
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 2"
+ String: 7 uniE482
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 3"
+ String: 7 uniE483
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 4"
+ String: 7 uniE484
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 5"
+ String: 7 uniE485
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 6"
+ String: 7 uniE486
+ BString: 6 u1134D
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 7"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 21-1" 0 0 0 7
+ String: 7 uniE201
+ BString: 0
+ FString: 7 uniE480
+ 1
+  SeqLookup: 0 "Rearrangement 1"
+ String: 7 uniE202
+ BString: 0
+ FString: 7 uniE481
+ 1
+  SeqLookup: 0 "Rearrangement 2"
+ String: 7 uniE200
+ BString: 0
+ FString: 7 uniE482
+ 1
+  SeqLookup: 0 "Rearrangement 3"
+ String: 7 uniE201
+ BString: 0
+ FString: 7 uniE483
+ 1
+  SeqLookup: 0 "Rearrangement 4"
+ String: 7 uniE202
+ BString: 0
+ FString: 7 uniE484
+ 1
+  SeqLookup: 0 "Rearrangement 5"
+ String: 7 uniE200
+ BString: 0
+ FString: 7 uniE485
+ 1
+  SeqLookup: 0 "Rearrangement 6"
+ String: 7 uniE200
+ BString: 0
+ FString: 7 uniE486
+ 1
+  SeqLookup: 0 "Rearrangement 7"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 7
+ String: 6 u1133F
+ BString: 7 uniE201
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 1"
+ String: 6 u1133F
+ BString: 7 uniE202
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 2"
+ String: 6 u1133F
+ BString: 7 uniE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 3"
+ String: 6 u11340
+ BString: 7 uniE201
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 4"
+ String: 6 u11340
+ BString: 7 uniE202
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 5"
+ String: 6 u11340
+ BString: 7 uniE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 6"
+ String: 6 u1134D
+ BString: 7 uniE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 7"
+EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup 6-1" 3 5 3 7
   Class: 13 u1133F u11340
   Class: 7 uniE202
@@ -895,7 +1016,7 @@ FitToEm: 0
 WinInfo: 0 25 9
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114115 192
+BeginChars: 1114115 199
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -2164,6 +2285,7 @@ SplineSet
  41 960 l 1,79,-1
  44 887 l 1,0,-1
 EndSplineSet
+Substitution2: "Rearrangement 7-1" uniE486
 EndChar
 
 StartChar: u11347
@@ -2675,6 +2797,8 @@ SplineSet
  325 216 325 216 336 187 c 2,95,-1
  420 -6 l 2,0,1
 EndSplineSet
+Substitution2: "Rearrangement 4-1" u11340
+Substitution2: "Rearrangement 1-1" u1133F
 Ligature2: "'pstf' Post Base Forms lookup 8-1" u1134D u1132F
 EndChar
 
@@ -2732,6 +2856,9 @@ SplineSet
  322 276 322 276 346 276 c 0,61,62
  393 276 393 276 406 319 c 1,50,-1
 EndSplineSet
+Substitution2: "Rearrangement 7-1" u1134D
+Substitution2: "Rearrangement 6-1" u11340
+Substitution2: "Rearrangement 3-1" u1133F
 Ligature2: "'rphf' Reph Form lookup 7-1" u11330 u1134D
 EndChar
 
@@ -6142,6 +6269,9 @@ SplineSet
  66 778 l 1,99,-1
  76 778 l 1,73,-1
 EndSplineSet
+Substitution2: "Rearrangement 6-1" uniE485
+Substitution2: "Rearrangement 5-1" uniE484
+Substitution2: "Rearrangement 4-1" uniE483
 Substitution2: "Alternate i/I markers-1" uniE210
 EndChar
 
@@ -6231,6 +6361,9 @@ SplineSet
  91 610 l 1,48,-1
  91 70 l 1,0,-1
 EndSplineSet
+Substitution2: "Rearrangement 3-1" uniE482
+Substitution2: "Rearrangement 2-1" uniE481
+Substitution2: "Rearrangement 1-1" uniE480
 Substitution2: "Alternate i/I markers-1" uniE211
 EndChar
 
@@ -10461,6 +10594,8 @@ SplineSet
  -52 -234 -52 -234 31 -119 c 0,33,34
  104 -18 104 -18 104 164 c 1,0,-1
 EndSplineSet
+Substitution2: "Rearrangement 5-1" u11340
+Substitution2: "Rearrangement 2-1" u1133F
 Substitution2: "Alternate rakara markers 2-1" uniE20A
 Substitution2: "Alternate rakara markers 1-1" uniE207
 Ligature2: "'rkrf' Rakar Forms lookup 9-1" u1134D u11330
@@ -17491,6 +17626,62 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 182 3024 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniE480
+Encoding: 58496 58496 192
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 1-1" uniE201
+EndChar
+
+StartChar: uniE481
+Encoding: 58497 58497 193
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 2-1" uniE202
+EndChar
+
+StartChar: uniE482
+Encoding: 58498 58498 194
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 3-1" uniE200
+EndChar
+
+StartChar: uniE483
+Encoding: 58499 58499 195
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 4-1" uniE201
+EndChar
+
+StartChar: uniE484
+Encoding: 58500 58500 196
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 5-1" uniE202
+EndChar
+
+StartChar: uniE485
+Encoding: 58501 58501 197
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 6-1" uniE200
+EndChar
+
+StartChar: uniE486
+Encoding: 58501 58501 198
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 7-1" uniE200
 EndChar
 EndChars
 EndSplineFont
