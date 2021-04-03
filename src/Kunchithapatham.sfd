@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617432700
+ModificationTime: 1617436964
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -62,16 +62,21 @@ Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  }
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants lookup 10" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Alternate i/I markers" { "Alternate i/I markers-1"  } []
+Lookup: 1 0 0 "Alternate rakara markers 1" { "Alternate rakara markers 1-1"  } []
+Lookup: 1 0 0 "Alternate rakara markers 2" { "Alternate rakara markers 2-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 6" { "'psts' Post Base Substitutions lookup 6-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 2" { "'haln' Halant Forms lookup 2-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'psts' Post Base Substitutions lookup 6-1" 2 4 2 3
+ChainSub2: class "'psts' Post Base Substitutions lookup 6-1" 3 5 3 7
   Class: 13 u1133F u11340
+  Class: 7 uniE202
   BClass: 13 u1131F u11333
   BClass: 287 uniE380 uniE384 uniE386 uniE385 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
   BClass: 255 uniE515 uniE516 uniE517 uniE518 uniE519 uniE51A uniE51B uniE51C uniE51D uniE51E uniE51F uniE520 uniE521 uniE522 uniE523 uniE524 uniE525 uniE526 uniE527 uniE528 uniE52A uniE52B uniE52C uniE52D uniE52E uniE532 uniE533 uniE535 uniE536 uniE537 uniE538 uniE539
+  BClass: 13 u1133F u11340
   FClass: 13 u1133F u11340
+  FClass: 7 uniE202
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -90,9 +95,33 @@ ChainSub2: class "'psts' Post Base Substitutions lookup 6-1" 2 4 2 3
   FClsList:
  1
   SeqLookup: 0 "Alternate i/I markers"
-  ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3"
-  FClassNames: "All_Others" "1"
+ 1 1 0
+  ClsList: 2
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Alternate rakara markers 1"
+ 1 1 0
+  ClsList: 2
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Alternate rakara markers 2"
+ 1 2 0
+  ClsList: 2
+  BClsList: 4 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Alternate rakara markers 1"
+ 1 2 0
+  ClsList: 2
+  BClsList: 4 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Alternate rakara markers 2"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2" "3" "4"
+  FClassNames: "All_Others" "1" "2"
 EndFPST
 ChainSub2: coverage "'blwf' Below Base Forms lookup 4-1" 0 0 0 1
  1 1 0
@@ -10432,6 +10461,8 @@ SplineSet
  -52 -234 -52 -234 31 -119 c 0,33,34
  104 -18 104 -18 104 164 c 1,0,-1
 EndSplineSet
+Substitution2: "Alternate rakara markers 2-1" uniE20A
+Substitution2: "Alternate rakara markers 1-1" uniE207
 Ligature2: "'rkrf' Rakar Forms lookup 9-1" u1134D u11330
 EndChar
 
@@ -16235,8 +16266,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Yacute
-Encoding: 221 221 166
+StartChar: uniE205
+Encoding: 57861 57861 166
 Width: 235
 Flags: MW
 LayerCount: 2
@@ -16270,14 +16301,14 @@ SplineSet
  25 -685 25 -685 32 -661 c 2,36,-1
  101 -447 l 1,37,-1
  38 -447 l 1,38,-1
- 44 -402 l 1,39,-1
- 236 -402 l 1,40,-1
+ 44 -402 l 5,39,-1
+ 236 -402 l 5,40,-1
  230 -447 l 1,0,-1
 EndSplineSet
 EndChar
 
-StartChar: Thorn
-Encoding: 222 222 167
+StartChar: uniE206
+Encoding: 57862 57862 167
 Width: 284
 Flags: MW
 LayerCount: 2
@@ -16321,14 +16352,14 @@ SplineSet
  86 -736 l 1,47,-1
  116 -496 l 1,48,-1
  18 -496 l 1,49,-1
- 17 -433 l 1,50,-1
- 286 -433 l 1,51,-1
+ 17 -433 l 5,50,-1
+ 286 -433 l 5,51,-1
  278 -496 l 1,0,-1
 EndSplineSet
 EndChar
 
-StartChar: germandbls
-Encoding: 223 223 168
+StartChar: uniE207
+Encoding: 57863 57863 168
 Width: 205
 Flags: MW
 LayerCount: 2
@@ -16337,8 +16368,8 @@ SplineSet
 78 -452 m 1,0,-1
  24 -452 l 2,1,2
  5 -452 5 -452 5 -433 c 256,3,4
- 5 -414 5 -414 24 -414 c 2,5,-1
- 182 -414 l 2,6,7
+ 5 -414 5 -414 24 -414 c 6,5,-1
+ 182 -414 l 6,6,7
  190 -414 190 -414 195 -420 c 128,-1,8
  200 -426 200 -426 200 -433 c 0,9,10
  200 -452 200 -452 182 -452 c 2,11,-1
@@ -16357,8 +16388,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: agrave
-Encoding: 224 224 169
+StartChar: uniE208
+Encoding: 57864 57864 169
 Width: 188
 Flags: MW
 LayerCount: 2
@@ -16391,14 +16422,14 @@ SplineSet
  15 -1095 15 -1095 26 -1059 c 2,32,-1
  81 -888 l 1,33,-1
  30 -888 l 1,34,-1
- 35 -852 l 1,35,-1
- 189 -852 l 1,36,-1
+ 35 -852 l 5,35,-1
+ 189 -852 l 5,36,-1
  184 -888 l 1,0,-1
 EndSplineSet
 EndChar
 
-StartChar: aacute
-Encoding: 225 225 170
+StartChar: uniE209
+Encoding: 57865 57865 170
 Width: 227
 Flags: MW
 LayerCount: 2
@@ -16446,8 +16477,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: acircumflex
-Encoding: 226 226 171
+StartChar: uniE20A
+Encoding: 57866 57866 171
 Width: 164
 Flags: MW
 LayerCount: 2
@@ -16456,8 +16487,8 @@ SplineSet
 62 -892 m 1,0,-1
  19 -892 l 2,1,2
  4 -892 4 -892 4 -877 c 0,3,4
- 4 -861 4 -861 19 -861 c 2,5,-1
- 146 -861 l 2,6,7
+ 4 -861 4 -861 19 -861 c 6,5,-1
+ 146 -861 l 6,6,7
  160 -861 160 -861 160 -877 c 0,8,9
  160 -892 160 -892 146 -892 c 2,10,-1
  93 -892 l 1,11,12
