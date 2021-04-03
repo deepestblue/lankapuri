@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617417110
+ModificationTime: 1617419459
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,7 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 259
 OS2Vendor: '    '
 Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form lookup 7" { "'rphf' Reph Form lookup 7-1"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -2643,8 +2644,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: nine
-Encoding: 57 57 26
+StartChar: uniE200
+Encoding: 57856 57856 26
 Width: 528
 Flags: MW
 LayerCount: 2
@@ -2697,6 +2698,7 @@ SplineSet
  322 276 322 276 346 276 c 0,61,62
  393 276 393 276 406 319 c 1,50,-1
 EndSplineSet
+Ligature2: "'rphf' Reph Form lookup 7-1" u11330 u1134D
 EndChar
 
 StartChar: uniE10E
@@ -6017,6 +6019,7 @@ SplineSet
  583 373 l 1,153,-1
  560 305 l 1,43,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 1-1" u11324 u1134D u11335
 EndChar
 
