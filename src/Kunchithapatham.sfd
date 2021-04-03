@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617425771
+ModificationTime: 1617428390
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,6 +55,7 @@ OS2StrikeYPos: 259
 OS2Vendor: '    '
 Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form lookup 7" { "'rphf' Reph Form lookup 7-1"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 9" { "'rkrf' Rakar Forms lookup 9-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 8" { "'pstf' Post Base Forms lookup 8-1"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
@@ -6112,8 +6113,8 @@ EndSplineSet
 Substitution2: "Alternate i/I markers-1" uniE210
 EndChar
 
-StartChar: backslash
-Encoding: 92 92 61
+StartChar: uniE203
+Encoding: 57859 57859 61
 Width: 313
 Flags: MW
 LayerCount: 2
@@ -8890,8 +8891,8 @@ EndSplineSet
 Ligature2: "'akhn' Akhand lookup 1-1" u11315 u1134D u11324
 EndChar
 
-StartChar: bar
-Encoding: 124 124 90
+StartChar: uniE204
+Encoding: 57860 57860 90
 Width: 378
 Flags: MW
 LayerCount: 2
@@ -10399,8 +10400,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Ydieresis
-Encoding: 376 376 107
+StartChar: uniE202
+Encoding: 57858 57858 107
 Width: 273
 Flags: MW
 LayerCount: 2
@@ -10428,6 +10429,7 @@ SplineSet
  -52 -234 -52 -234 31 -119 c 0,33,34
  104 -18 104 -18 104 164 c 1,0,-1
 EndSplineSet
+Ligature2: "'rkrf' Rakar Forms lookup 9-1" u1134D u11330
 EndChar
 
 StartChar: uniE31F
