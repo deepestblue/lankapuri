@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617406850
+ModificationTime: 1617408488
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,6 +55,7 @@ OS2StrikeYPos: 259
 OS2Vendor: '    '
 Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms lookup 2" { "'haln' Halant Forms lookup 2-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -1599,6 +1600,7 @@ SplineSet
  337 96 337 96 337 116 c 0,129,130
  337 141 337 141 319 159 c 0,112,113
 EndSplineSet
+Ligature2: "'haln' Halant Forms lookup 2-1" u1132E u1134D
 EndChar
 
 StartChar: uniE10F
@@ -2992,6 +2994,7 @@ SplineSet
  309 -47 309 -47 343 -13 c 0,77,78
  356 3 356 3 376 46 c 1,66,67
 EndSplineSet
+Ligature2: "'haln' Halant Forms lookup 2-1" u11328 u1134D
 EndChar
 
 StartChar: uni0951
@@ -4510,6 +4513,7 @@ SplineSet
  315 70 315 70 323.5 82 c 128,-1,127
  332 94 332 94 335 104 c 2,105,-1
 EndSplineSet
+Ligature2: "'haln' Halant Forms lookup 2-1" u11324 u1134D
 EndChar
 
 StartChar: uniE10B
