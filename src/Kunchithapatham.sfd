@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617414806
+ModificationTime: 1617417110
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -65,7 +65,7 @@ DEI: 91125
 ChainSub2: class "'psts' Post Base Substitutions lookup 6-1" 2 4 2 3
   Class: 13 u1133F u11340
   BClass: 13 u1131F u11333
-  BClass: 255 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
+  BClass: 287 uniE380 uniE384 uniE386 uniE385 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
   BClass: 255 uniE515 uniE516 uniE517 uniE518 uniE519 uniE51A uniE51B uniE51C uniE51D uniE51E uniE51F uniE520 uniE521 uniE522 uniE523 uniE524 uniE525 uniE526 uniE527 uniE528 uniE52A uniE52B uniE52C uniE52D uniE52E uniE532 uniE533 uniE535 uniE536 uniE537 uniE538 uniE539
   FClass: 13 u1133F u11340
  1 1 0
@@ -93,7 +93,7 @@ EndFPST
 ChainSub2: coverage "'blwf' Below Base Forms lookup 4-1" 0 0 0 1
  1 1 0
   Coverage: 255 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
-  BCoverage: 255 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
+  BCoverage: 287 uniE380 uniE384 uniE386 uniE385 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339
  1
   SeqLookup: 0 "Second stack to third stack"
 EndFPST
@@ -12583,8 +12583,8 @@ Substitution2: "Second stack to third stack-1" uniE533
 Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D u11333
 EndChar
 
-StartChar: cedilla
-Encoding: 184 184 130
+StartChar: uniE380
+Encoding: 58240 58240 130
 Width: 28
 Flags: MW
 LayerCount: 2
@@ -12773,10 +12773,11 @@ SplineSet
  -601 -294 -601 -294 -597.5 -284.5 c 128,-1,236
  -594 -275 -594 -275 -586 -261 c 0,92,93
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D uniE10C
 EndChar
 
-StartChar: onesuperior
-Encoding: 185 185 131
+StartChar: uniE384
+Encoding: 58244 58244 131
 Width: 35
 Flags: MW
 LayerCount: 2
@@ -12863,8 +12864,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ordmasculine
-Encoding: 186 186 132
+StartChar: uniE386
+Encoding: 58246 58246 132
 Width: 28
 Flags: MW
 LayerCount: 2
@@ -12953,10 +12954,11 @@ SplineSet
  -81 -180 l 1,111,-1
  -81 -614 l 1,14,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D uniE106
 EndChar
 
-StartChar: guillemotright
-Encoding: 187 187 133
+StartChar: uniE385
+Encoding: 58245 58245 133
 Width: 21
 Flags: MW
 LayerCount: 2
@@ -13076,6 +13078,7 @@ SplineSet
  -439 -302 l 1,147,-1
  -457 -356 l 1,41,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 0-1" u1134D uniE107
 EndChar
 
 StartChar: uniE515
