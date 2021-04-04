@@ -6,15 +6,31 @@ catch() {
     if [ "$1" == "0" ]; then
         return
     fi
-    rm $typefacename
+    rm $FILENAME
 }
 
 trap 'catch $?' EXIT
 
-typefacename=$1
-src=$(dirname $0)
+SRCDIR=$(dirname $0)
 
-$src/sfd2ttf.pe ${typefacename%.ttf}.sfd $typefacename
-$src/add-non-English-names.py --ta குஞ்சிதபாதம் --sa 𑌕𑍁𑌞𑍍𑌚𑌿𑌤𑌪𑌾𑌦𑌃 $typefacename
-gftools fix-unwanted-tables --tables FFTM $typefacename
-gftools fix-dsig --autofix $typefacename
+while getopts f:t:s: OPTLET; do
+  case $OPTLET in
+    f)
+        FILENAME=$OPTARG
+        ;;
+    t)
+        TA_NAME=$OPTARG
+        ;;
+    s)
+        SA_NAME=$OPTARG
+        ;;
+    *)
+        exit 2
+        ;;
+  esac
+done
+
+$SRCDIR/sfd2ttf.pe ${FILENAME%.ttf}.sfd $FILENAME
+$SRCDIR/add-non-English-names.py --ta $TA_NAME --sa $SA_NAME $FILENAME
+gftools fix-unwanted-tables --tables FFTM $FILENAME
+gftools fix-dsig --autofix $FILENAME
