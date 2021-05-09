@@ -6,9 +6,9 @@ install:
 	$(PS) ./install_typeface.ps1 -Path $(TYPEFACEPATH) -Name 'Kunchithapatham Regular'
 
 regenerate_masters:
-	$(PS) $(BINDIR)/generate_images.ps1 -Rasteriser $(BINDIR)/rasterise_text_windows.exe -OutputRoot ../windows_masters -TypeFace $(TYPEFACEPATH)
+	$(PS) $(BINDIR)/generate_images.ps1 -Rasteriser $(BINDIR)/rasterise_text_windows.exe -OutputRoot ../masters/windows -TypeFace $(TYPEFACEPATH)
 
 test:
-	$(PS) $(BINDIR)/run_tests.ps1 -TypeFace $(TYPEFACEPATH) -Rasteriser $(BINDIR)/rasterise_text_windows.exe -MasterImages ../windows_masters
+	$(PS) $(BINDIR)/run_tests.ps1 -TypeFace $(TYPEFACEPATH) -Rasteriser $(BINDIR)/rasterise_text_windows.exe -MasterImages ../masters/windows
 
 .PHONY: install regenerate_masters test clean
