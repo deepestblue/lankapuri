@@ -13,10 +13,10 @@ install: build
 	install -C -m 644 ${TYPEFACENAME} ~/Library/Fonts/
 
 regenerate_qt_masters: build
-	$(BINDIR)/generate_images -d ../masters/qt -r ../bin/rasterise_text_qt -t ${TYPEFACENAME}
+	$(BINDIR)/generate_images -d ../masters/qt -r $(BINDIR)/rasterise_text_qt -t ${TYPEFACENAME}
 
 regenerate_coretext_masters: build
-	$(BINDIR)/generate_images -d ../masters/coretext -r ../bin/rasterise_text_coretext -t ${TYPEFACENAME}
+	$(BINDIR)/generate_images -d ../masters/coretext -r $(BINDIR)/rasterise_text_coretext -t ${TYPEFACENAME}
 
 regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 
