@@ -13,16 +13,16 @@ install: build
 	install -C -m 644 ${TYPEFACENAME} ~/Library/Fonts/
 
 regenerate_qt_masters: build
-	$(BINDIR)/generate_images -d ../masters/qt -r $(BINDIR)/rasterise_text_qt -t ${TYPEFACENAME}
+	$(BINDIR)/generate_images -d ../masters/qt -r $(BINDIR)/rasterise_text_qt -t ${TYPEFACENAME} -c ../cases
 
 regenerate_coretext_masters: build
-	$(BINDIR)/generate_images -d ../masters/coretext -r $(BINDIR)/rasterise_text_coretext -t ${TYPEFACENAME}
+	$(BINDIR)/generate_images -d ../masters/coretext -r $(BINDIR)/rasterise_text_coretext -t ${TYPEFACENAME} -c ../cases
 
 regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 
 test: build
-	$(BINDIR)/run_tests -e ../masters/coretext/ -r $(BINDIR)/rasterise_text_coretext -t ${TYPEFACENAME}
-	$(BINDIR)/run_tests -e ../masters/qt/ -r $(BINDIR)/rasterise_text_qt -t ${TYPEFACENAME}
+	$(BINDIR)/run_tests -e ../masters/coretext -r $(BINDIR)/rasterise_text_coretext -t ${TYPEFACENAME} -c ../cases
+	$(BINDIR)/run_tests -e ../masters/qt -r $(BINDIR)/rasterise_text_qt -t ${TYPEFACENAME} -c ../cases
 
 clean:
 	${RM} ${TYPEFACENAME}
