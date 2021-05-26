@@ -1,6 +1,6 @@
 PS = powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command
 TYPEFACEPATH = '../src/Kunchithapatham.ttf'
-BINDIR = ../bin
+BINDIR = ../alekhana_dist
 
 install:
 	$(PS) $(BINDIR)/install_typeface.ps1 -Path $(TYPEFACEPATH) -Name 'Kunchithapatham Regular'

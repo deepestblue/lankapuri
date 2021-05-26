@@ -1,5 +1,5 @@
 TYPEFACENAME := ../src/Kunchithapatham.ttf
-BINDIR := ../bin
+BINDIR := ../alekhana_dist
 
 NAME_TA := குஞ்சிதபாதம்
 NAME_SA := 𑌕𑍁𑌞𑍍𑌚𑌿𑌤𑌪𑌾𑌦𑌃
