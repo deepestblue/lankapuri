@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623555806
+ModificationTime: 1623558353
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,7 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -828,6 +829,7 @@ SplineSet
  339 -42 l 1,58,-1
  663 -42 l 1,0,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11328 u1134D u11326
 EndChar
 
 StartChar: uniE112
@@ -1002,6 +1004,7 @@ SplineSet
  673 391 l 1,39,-1
  743 391 l 1,0,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11328 u1134D u11335
 EndChar
 
 StartChar: uniE115
@@ -1340,6 +1343,7 @@ SplineSet
  923 267 l 2,141,142
  919 254 919 254 912 243 c 0,34,35
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11337 u1134D u1131F
 EndChar
 
 StartChar: uniE117
@@ -3180,6 +3184,7 @@ SplineSet
  795 -175 795 -175 786.5 -155.5 c 128,-1,222
  778 -136 778 -136 770 -128 c 0,35,36
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u1131C u1134D u1131E
 EndChar
 
 StartChar: u1134D
@@ -5067,6 +5072,7 @@ SplineSet
  780 451 780 451 755 451 c 0,175,176
  723 451 723 451 697 435 c 1,16,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11339 u1134D u1132E
 EndChar
 
 StartChar: u11302
@@ -6228,6 +6234,7 @@ SplineSet
  1002 422 1002 422 1049 398 c 1,94,95
  1115 356 1115 356 1143 270 c 1,0,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11328 u1134D u11327
 EndChar
 
 StartChar: u11320
@@ -6619,6 +6626,7 @@ SplineSet
  739 -93 739 -93 720 -90 c 1,118,-1
  390 -114 l 1,65,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11328 u1134D u11324
 EndChar
 
 StartChar: uniE101
@@ -6900,6 +6908,7 @@ SplineSet
  23 -104 23 -104 -1 -96.5 c 128,-1,93
  -25 -89 -25 -89 -30 -66 c 1,49,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11328 u1134D u11328
 EndChar
 
 StartChar: u11324
@@ -9296,6 +9305,7 @@ SplineSet
  240 45 240 45 264 63 c 0,145,146
  298 89 298 89 298 144 c 0,132,133
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u1131E u1134D u1131C
 EndChar
 
 StartChar: u1131C
@@ -11339,6 +11349,7 @@ SplineSet
  322 32 322 32 350 60.5 c 128,-1,141
  378 89 378 89 384 132 c 2,125,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u1131E u1134D u1131A
 EndChar
 
 StartChar: u11308
@@ -11782,6 +11793,7 @@ SplineSet
  304 361 304 361 273 326 c 2,134,-1
  250 300 l 1,12,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11326 u1134D u11327
 EndChar
 
 StartChar: u11316
@@ -12241,6 +12253,7 @@ SplineSet
  653 228 l 1,100,-1
  819 204 l 1,34,35
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11324 u1134D u11335
 EndChar
 
 StartChar: u11340
@@ -12881,6 +12894,7 @@ SplineSet
  195 334 195 334 201 344 c 128,-1,133
  207 354 207 354 207 370 c 0,122,123
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u1132E u1134D u1132E
 EndChar
 
 StartChar: u1131F
@@ -15466,6 +15480,7 @@ SplineSet
  538 239 l 1,149,-1
  621 252 l 1,61,62
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11315 u1134D u11337
 EndChar
 
 StartChar: u11333
@@ -18794,6 +18809,7 @@ SplineSet
  598 -122 598 -122 580 -122 c 0,150,151
  539 -122 539 -122 522 -126 c 1,45,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11315 u1134D u11324
 EndChar
 
 StartChar: uniE203
@@ -19259,6 +19275,7 @@ SplineSet
  264 86 264 86 271 118 c 2,130,-1
  305 277 l 1,115,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11324 u1134D u11325
 EndChar
 
 StartChar: uniE106
@@ -19479,6 +19496,7 @@ SplineSet
  505 31 505 31 528 36 c 2,91,-1
  594 39 l 1,15,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand lookup 0-1" u11326 u1134D u11335
 EndChar
 
 StartChar: u1133D
@@ -36588,7 +36606,7 @@ EndChar
 StartChar: u11362
 Encoding: 70498 70498 192
 Width: 996
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 Refer: 51 70412 N 1 0 0 1 0 0 2
