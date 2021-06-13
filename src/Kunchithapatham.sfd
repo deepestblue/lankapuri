@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1617490499
+ModificationTime: 1623621427
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,6 @@ Lookup: 4 0 0 "'blwf' Below Base Forms lookup 0" { "'blwf' Below Base Forms look
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants lookup 10" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Alternate i/I markers" { "Alternate i/I markers-1"  } []
 Lookup: 1 0 0 "Rearrangement 1" { "Rearrangement 1-1"  } []
 Lookup: 1 0 0 "Rearrangement 2" { "Rearrangement 2-1"  } []
 Lookup: 1 0 0 "Rearrangement 3" { "Rearrangement 3-1"  } []
@@ -73,6 +72,7 @@ Lookup: 1 0 0 "Rearrangement 7" { "Rearrangement 7-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21" { "'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22" { "'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Alternate i/I markers" { "Alternate i/I markers-1"  } []
 Lookup: 1 0 0 "Alternate rakara markers 1" { "Alternate rakara markers 1-1"  } []
 Lookup: 1 0 0 "Alternate rakara markers 2" { "Alternate rakara markers 2-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 6" { "'psts' Post Base Substitutions lookup 6-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
