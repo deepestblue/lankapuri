@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623613191
+ModificationTime: 1623613865
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -62,6 +62,7 @@ Lookup: 4 0 0 "'pstf' Post Base Forms lookup 4" { "'pstf' Post Base Forms lookup
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 5" { "'blwf' Below Base Forms lookup 5-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
 Lookup: 5 0 0 "'blwf' Below Base Forms lookup 7" { "'blwf' Below Base Forms lookup 7-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants lookup 8" { "'vatu' Vattu Variants lookup 8-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ContextSub2: coverage "'blwf' Below Base Forms lookup 7-1" 0 0 0 1
@@ -2497,6 +2498,7 @@ SplineSet
  104 -8 l 1,122,-1
  141 -42 l 2,23,24
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 8-1" u11324 uniE202
 EndChar
 
 StartChar: u11303
@@ -5761,6 +5763,7 @@ SplineSet
  788 39 788 39 809 57 c 128,-1,87
  830 75 830 75 845 120 c 0,69,70
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 8-1" u11336 uniE202
 EndChar
 
 StartChar: u11319
@@ -27717,12 +27720,14 @@ SplineSet
  -630 -643 l 1,121,-1
  -585 -684 l 1,23,-1
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'vatu' Vattu Variants lookup 8-1" uniE324 uniE202
 EndChar
 
 StartChar: uniE386
 Encoding: 58246 58246 132
 Width: 10
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  69
