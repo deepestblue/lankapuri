@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623613865
+ModificationTime: 1623616564
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -63,6 +63,7 @@ Lookup: 4 0 0 "'blwf' Below Base Forms lookup 5" { "'blwf' Below Base Forms look
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
 Lookup: 5 0 0 "'blwf' Below Base Forms lookup 7" { "'blwf' Below Base Forms lookup 7-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants lookup 8" { "'vatu' Vattu Variants lookup 8-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms lookup 9" { "'haln' Halant Forms lookup 9-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ContextSub2: coverage "'blwf' Below Base Forms lookup 7-1" 0 0 0 1
@@ -2160,6 +2161,7 @@ SplineSet
  277 -120 277 -120 300 -108 c 0,92,93
  309 -101 309 -101 320 -74 c 1,80,81
 EndSplineSet
+Ligature2: "'haln' Halant Forms lookup 9-1" u1132E u1134D
 EndChar
 
 StartChar: uniE10F
@@ -2498,6 +2500,7 @@ SplineSet
  104 -8 l 1,122,-1
  141 -42 l 2,23,24
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants lookup 8-1" u11324 uniE202
 EndChar
 
@@ -5122,6 +5125,7 @@ SplineSet
  780 451 780 451 755 451 c 0,175,176
  723 451 723 451 697 435 c 1,16,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0-1" u11339 u1134D u1132E
 EndChar
 
@@ -5441,6 +5445,7 @@ SplineSet
  439 30 l 1,92,-1
  450 102 l 1,18,-1
 EndSplineSet
+Ligature2: "'haln' Halant Forms lookup 9-1" u11328 u1134D
 EndChar
 
 StartChar: uni0951
@@ -6285,6 +6290,7 @@ SplineSet
  1002 422 1002 422 1049 398 c 1,94,95
  1115 356 1115 356 1143 270 c 1,0,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0-1" u11328 u1134D u11327
 EndChar
 
@@ -9022,6 +9028,7 @@ SplineSet
  430 239 l 1,89,-1
  520 237 l 1,35,36
 EndSplineSet
+Ligature2: "'haln' Halant Forms lookup 9-1" u11324 u1134D
 EndChar
 
 StartChar: uniE10B
