@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623558353
+ModificationTime: 1623561818
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,8 +55,43 @@ OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
 Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0-1"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "Repha" { "Repha-1"  } []
+Lookup: 6 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2-1"  "'rphf' Reph Form lookup 2-2"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 3" { "'rkrf' Rakar Forms lookup 3-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'rphf' Reph Form lookup 2-2" 3 3 3 1
+  Class: 6 u11330
+  Class: 6 u1134D
+  BClass: 6 u11330
+  BClass: 6 u1134D
+  FClass: 6 u11330
+  FClass: 6 u1134D
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Repha"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "'rphf' Reph Form lookup 2-1" 3 2 3 1
+  Class: 6 u11330
+  Class: 6 u1134D
+  BClass: 6 u1134D
+  FClass: 6 u11330
+  FClass: 6 u1134D
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 1
+  FClsList:
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 TtTable: prep
 NPUSHB
  1
@@ -4750,6 +4785,7 @@ SplineSet
  561 53 561 53 601 44 c 0,58,59
  639 37 639 37 648 3 c 1,16,-1
 EndSplineSet
+Ligature2: "Repha-1" u11330 u1134D
 EndChar
 
 StartChar: uniE10E
@@ -12491,6 +12527,7 @@ SplineSet
  -552 -501 -552 -501 -558 -498 c 1,32,-1
  -540 -444 l 1,0,-1
 EndSplineSet
+Ligature2: "'rkrf' Rakar Forms lookup 3-1" u1134D u11330
 EndChar
 
 StartChar: u1133F
