@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623221339
+ModificationTime: 1623555806
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -333,15 +333,16 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Normal" "" "" "1.0 Mon Jan 22 14:00:09 2001"
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9575 25 9
+WinInfo: 0 25 9
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114113 186
+BeginChars: 1114113 193
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -36520,6 +36521,77 @@ SplineSet
  122 386 122 386 155 401 c 0,29,30
  193 419 193 419 234 419 c 2,0,-1
 EndSplineSet
+EndChar
+
+StartChar: u11310
+Encoding: 70416 70416 186
+Width: 1929
+Flags: W
+LayerCount: 2
+Fore
+Refer: 18 70471 N 1 0 0 1 0 0 2
+Refer: 82 70415 N 1 0 0 1 579 0 2
+EndChar
+
+StartChar: u11314
+Encoding: 70420 70420 187
+Width: 1718
+Flags: W
+LayerCount: 2
+Fore
+Refer: 19 70487 N 1 0 0 1 819 0 2
+Refer: 53 70419 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: u11348
+Encoding: 70472 70472 188
+Width: 1230
+Flags: W
+LayerCount: 2
+Fore
+Refer: 18 70471 N 1 0 0 1 0 0 2
+Refer: 18 70471 N 1 0 0 1 610 0 2
+EndChar
+
+StartChar: u1134B
+Encoding: 70475 70475 189
+Width: 1680
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 70462 N 1 0 0 1 1054 0 2
+Refer: 185 9679 N 1 0 0 1 562 -46 2
+Refer: 18 70471 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: u1134C
+Encoding: 70476 70476 190
+Width: 1942
+Flags: W
+LayerCount: 2
+Fore
+Refer: 19 70487 N 1 0 0 1 1054 0 2
+Refer: 185 9679 N 1 0 0 1 562 0 2
+Refer: 18 70471 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: u11360
+Encoding: 70496 70496 191
+Width: 958
+Flags: WO
+LayerCount: 2
+Fore
+Refer: 8 57984 N 1.2 0 0 1.2 553.4 57.8 2
+Refer: 80 70411 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: u11362
+Encoding: 70498 70498 192
+Width: 996
+Flags: W
+LayerCount: 2
+Fore
+Refer: 51 70413 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
