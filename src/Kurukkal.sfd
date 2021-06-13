@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623561818
+ModificationTime: 1623609827
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -58,6 +58,8 @@ Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0-1"  } ['akhn' (
 Lookup: 4 0 0 "Repha" { "Repha-1"  } []
 Lookup: 6 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2-1"  "'rphf' Reph Form lookup 2-2"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 3" { "'rkrf' Rakar Forms lookup 3-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms lookup 4" { "'pstf' Post Base Forms lookup 4-1"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms lookup 5" { "'blwf' Below Base Forms lookup 5-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'rphf' Reph Form lookup 2-2" 3 3 3 1
@@ -4646,6 +4648,7 @@ SplineSet
  79 -152 l 1,91,-1
  66 -134 l 2,12,13
 EndSplineSet
+Ligature2: "'pstf' Post Base Forms lookup 4-1" u1134D u1132F
 EndChar
 
 StartChar: uniE200
@@ -19870,6 +19873,7 @@ SplineSet
  -373 -544 -373 -544 -346 -510 c 1,94,95
  -336 -489 -336 -489 -316 -415 c 1,73,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11315
 EndChar
 
 StartChar: uniE316
@@ -20071,6 +20075,7 @@ SplineSet
  -370 -385 -370 -385 -378.5 -362.5 c 128,-1,83
  -387 -340 -387 -340 -409 -317 c 0,16,17
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11316
 EndChar
 
 StartChar: uniE317
@@ -20261,6 +20266,7 @@ SplineSet
  -469 -731 l 1,68,-1
  -557 -731 l 1,0,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11317
 EndChar
 
 StartChar: uniE318
@@ -20440,6 +20446,7 @@ SplineSet
  -868 -590 -868 -590 -845 -573 c 0,66,67
  -815 -550 -815 -550 -815 -500 c 0,54,55
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11318
 EndChar
 
 StartChar: uniE319
@@ -20708,6 +20715,7 @@ SplineSet
  -587 -358 -587 -358 -593 -346.5 c 128,-1,110
  -599 -335 -599 -335 -614 -335 c 0,99,100
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11319
 EndChar
 
 StartChar: uniE31A
@@ -20859,6 +20867,7 @@ SplineSet
  -541 -384 -541 -384 -557 -359 c 0,54,55
  -569 -337 -569 -337 -602 -322 c 1,38,39
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1131A
 EndChar
 
 StartChar: uniE31B
@@ -21042,6 +21051,7 @@ SplineSet
  -590 -378 -590 -378 -607 -355 c 0,83,84
  -617 -337 -617 -337 -654 -321 c 1,67,68
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1131B
 EndChar
 
 StartChar: uniE31C
@@ -21299,6 +21309,7 @@ SplineSet
  -494 -614 -494 -614 -472 -600 c 1,125,126
  -454 -582 -454 -582 -454 -550 c 0,111,112
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1131C
 EndChar
 
 StartChar: uniE31D
@@ -21557,6 +21568,7 @@ SplineSet
  -335 -524 -335 -524 -330 -539 c 0,89,90
  -327 -558 -327 -558 -314 -572 c 0,4,5
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1131D
 EndChar
 
 StartChar: uniE31E
@@ -21879,6 +21891,7 @@ SplineSet
  -756 -467 l 1,147,-1
  -758 -406 l 2,48,49
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1131E
 EndChar
 
 StartChar: u1135F
@@ -22549,6 +22562,7 @@ SplineSet
  -84 -595 l 1,10,-1
  -49 -595 l 1,0,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1131F
 EndChar
 
 StartChar: uniE320
@@ -22636,6 +22650,7 @@ SplineSet
  -116 -479 -116 -479 -116 -431 c 1,27,-1
  -118 -409 l 2,12,13
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11320
 EndChar
 
 StartChar: uniE321
@@ -22802,6 +22817,7 @@ SplineSet
  -551 -298 -551 -298 -557 -296 c 128,-1,92
  -563 -294 -563 -294 -574 -294 c 2,78,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11321
 EndChar
 
 StartChar: uniE322
@@ -23024,6 +23040,7 @@ SplineSet
  -511 -298 -511 -298 -517 -296 c 128,-1,116
  -523 -294 -523 -294 -534 -294 c 2,102,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11322
 EndChar
 
 StartChar: uniE323
@@ -23326,9 +23343,10 @@ SplineSet
  -585 -451 -585 -451 -568 -407 c 0,147,148
  -559 -383 -559 -383 -534 -339 c 1,50,51
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11323
 EndChar
 
-StartChar: brokenbar
+StartChar: uniE324
 Encoding: 58148 58148 113
 Width: 14
 Flags: W
@@ -23511,9 +23529,10 @@ SplineSet
  -326 -710 -326 -710 -378 -722 c 1,69,-1
  -718 -725 l 2,18,19
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11324
 EndChar
 
-StartChar: section
+StartChar: uniE325
 Encoding: 58149 58149 114
 Width: 10
 Flags: W
@@ -23724,9 +23743,10 @@ SplineSet
  -320 -383 -320 -383 -300.5 -356.5 c 128,-1,101
  -281 -330 -281 -330 -281 -302 c 0,89,90
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11325
 EndChar
 
-StartChar: dieresis
+StartChar: uniE326
 Encoding: 58150 58150 115
 Width: 10
 Flags: W
@@ -23927,9 +23947,10 @@ SplineSet
  -618 -437 -618 -437 -603 -423 c 128,-1,70
  -588 -409 -588 -409 -588 -391 c 0,59,60
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11326
 EndChar
 
-StartChar: copyright
+StartChar: uniE327
 Encoding: 58151 58151 116
 Width: 10
 Flags: W
@@ -24074,9 +24095,10 @@ SplineSet
  -342 -633 l 2,62,63
  -320 -633 -320 -633 -311 -630 c 0,0,1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11327
 EndChar
 
-StartChar: ordfeminine
+StartChar: uniE328
 Encoding: 58152 58152 117
 Width: 10
 Flags: W
@@ -24256,6 +24278,7 @@ SplineSet
  -188 -387 -188 -387 -162.5 -397.5 c 128,-1,57
  -137 -408 -137 -408 -120 -424 c 0,0,1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11328
 EndChar
 
 StartChar: uniE32A
@@ -24413,6 +24436,7 @@ SplineSet
  -1044 -590 -1044 -590 -1021 -573 c 0,62,63
  -991 -550 -991 -550 -991 -500 c 0,50,51
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1132A
 EndChar
 
 StartChar: uniE32B
@@ -24601,6 +24625,7 @@ SplineSet
  -1065 -566 -1065 -566 -1037 -549 c 0,84,85
  -1006 -526 -1006 -526 -1006 -476 c 0,70,71
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1132B
 EndChar
 
 StartChar: uniE32C
@@ -24809,6 +24834,7 @@ SplineSet
  -819 -598 -819 -598 -798 -580 c 0,87,88
  -774 -554 -774 -554 -768 -510 c 1,74,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1132C
 EndChar
 
 StartChar: uniE32D
@@ -25040,6 +25066,7 @@ SplineSet
  -129 -354 -129 -354 -137 -334 c 0,131,132
  -151 -297 -151 -297 -165 -283 c 0,15,16
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1132D
 EndChar
 
 StartChar: uniE32E
@@ -25275,6 +25302,7 @@ SplineSet
  -554 -580 -554 -580 -573.5 -583 c 128,-1,134
  -593 -586 -593 -586 -620 -592 c 1,18,19
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u1132E
 EndChar
 
 StartChar: uniE332
@@ -25454,6 +25482,7 @@ SplineSet
  -127 -316 -127 -316 -146 -297 c 1,75,-1
  -112 -248 l 1,0,1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11332
 EndChar
 
 StartChar: uniE335
@@ -25624,6 +25653,7 @@ SplineSet
  -551 -640 -551 -640 -524 -623 c 0,67,68
  -493 -598 -493 -598 -493 -550 c 0,55,56
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11335
 EndChar
 
 StartChar: uniE336
@@ -25817,6 +25847,7 @@ SplineSet
  -99 -567 -99 -567 -89 -532 c 2,50,-1
  -48 -314 l 1,38,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11336
 EndChar
 
 StartChar: uniE337
@@ -26137,6 +26168,7 @@ SplineSet
  -642 -590 -642 -590 -621 -573 c 0,115,116
  -590 -550 -590 -550 -590 -500 c 0,101,102
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11337
 EndChar
 
 StartChar: uniE338
@@ -26377,6 +26409,7 @@ SplineSet
  -1348 -630 -1348 -630 -1327 -613 c 0,113,114
  -1296 -590 -1296 -590 -1296 -540 c 0,100,101
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11338
 EndChar
 
 StartChar: uniE339
@@ -26655,6 +26688,7 @@ SplineSet
  -1044 -696 -1044 -696 -1044 -688 c 0,124,125
  -1044 -681 -1044 -681 -1040 -676 c 0,18,19
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11339
 EndChar
 
 StartChar: uniE333
@@ -26853,6 +26887,7 @@ SplineSet
  -1125 -602 l 2,98,99
  -1113 -617 -1113 -617 -1090 -621 c 0,86,87
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D u11333
 EndChar
 
 StartChar: uniE380
@@ -27279,6 +27314,7 @@ SplineSet
  -760 -423 l 1,154,-1
  -685 -411 l 1,64,65
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D uniE10C
 EndChar
 
 StartChar: uniE384
@@ -27834,6 +27870,7 @@ SplineSet
  -325 -598 l 1,97,-1
  -265 -595 l 1,16,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D uniE106
 EndChar
 
 StartChar: uniE385
@@ -28134,6 +28171,7 @@ SplineSet
  -484 -569 -484 -569 -509 -601 c 128,-1,111
  -534 -633 -534 -633 -554 -627 c 1,32,33
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms lookup 5-1" u1134D uniE107
 EndChar
 
 StartChar: uniE515
