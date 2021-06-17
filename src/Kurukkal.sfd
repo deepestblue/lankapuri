@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -872656817
-ModificationTime: 1623616564
+ModificationTime: 1623905168
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -63,9 +63,130 @@ Lookup: 4 0 0 "'blwf' Below Base Forms lookup 5" { "'blwf' Below Base Forms look
 Lookup: 1 0 0 "Second stack to third stack" { "Second stack to third stack-1"  } []
 Lookup: 5 0 0 "'blwf' Below Base Forms lookup 7" { "'blwf' Below Base Forms lookup 7-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants lookup 8" { "'vatu' Vattu Variants lookup 8-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Rearrangement 1" { "Rearrangement 1-1"  } []
+Lookup: 1 0 0 "Rearrangement 2" { "Rearrangement 2-1"  } []
+Lookup: 1 0 0 "Rearrangement 3" { "Rearrangement 3-1"  } []
+Lookup: 1 0 0 "Rearrangement 4" { "Rearrangement 4-1"  } []
+Lookup: 1 0 0 "Rearrangement 5" { "Rearrangement 5-1"  } []
+Lookup: 1 0 0 "Rearrangement 6" { "Rearrangement 6-1"  } []
+Lookup: 1 0 0 "Rearrangement 7" { "Rearrangement 7-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 17" { "'psts' Post Base Substitutions lookup 17-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 18" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 9" { "'haln' Halant Forms lookup 9-1"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 7
+ String: 7 uniE480
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 1"
+ String: 7 uniE481
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 2"
+ String: 7 uniE482
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 3"
+ String: 7 uniE483
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 4"
+ String: 7 uniE484
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 5"
+ String: 7 uniE485
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 6"
+ String: 7 uniE486
+ BString: 6 u1134D
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 7"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 7
+ String: 7 uniE201
+ BString: 0
+ FString: 7 uniE480
+ 1
+  SeqLookup: 0 "Rearrangement 1"
+ String: 7 uniE202
+ BString: 0
+ FString: 7 uniE481
+ 1
+  SeqLookup: 0 "Rearrangement 2"
+ String: 7 uniE200
+ BString: 0
+ FString: 7 uniE482
+ 1
+  SeqLookup: 0 "Rearrangement 3"
+ String: 7 uniE201
+ BString: 0
+ FString: 7 uniE483
+ 1
+  SeqLookup: 0 "Rearrangement 4"
+ String: 7 uniE202
+ BString: 0
+ FString: 7 uniE484
+ 1
+  SeqLookup: 0 "Rearrangement 5"
+ String: 7 uniE200
+ BString: 0
+ FString: 7 uniE485
+ 1
+  SeqLookup: 0 "Rearrangement 6"
+ String: 7 uniE200
+ BString: 0
+ FString: 7 uniE486
+ 1
+  SeqLookup: 0 "Rearrangement 7"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 17-1" 0 0 0 7
+ String: 6 u1133F
+ BString: 7 uniE201
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 1"
+ String: 6 u1133F
+ BString: 7 uniE202
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 2"
+ String: 6 u1133F
+ BString: 7 uniE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 3"
+ String: 6 u11340
+ BString: 7 uniE201
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 4"
+ String: 6 u11340
+ BString: 7 uniE202
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 5"
+ String: 6 u11340
+ BString: 7 uniE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 6"
+ String: 6 u1134D
+ BString: 7 uniE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Rearrangement 7"
+EndFPST
 ContextSub2: coverage "'blwf' Below Base Forms lookup 7-1" 0 0 0 1
  2 0 0
   Coverage: 295 uniE315 uniE316 uniE317 uniE318 uniE319 uniE31A uniE31B uniE31C uniE31D uniE31E uniE31F uniE320 uniE321 uniE322 uniE323 uniE324 uniE325 uniE326 uniE327 uniE328 uniE32A uniE32B uniE32C uniE32D uniE32E uniE32F uniE332 uniE333 uniE335 uniE336 uniE337 uniE338 uniE339 uniE380 uniE384 uniE385 uniE386
@@ -391,7 +512,7 @@ FitToEm: 0
 WinInfo: 0 25 9
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114113 193
+BeginChars: 1114113 200
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3384,6 +3505,7 @@ SplineSet
  -153 617 -153 617 -115 626 c 1,40,-1
  255 626 l 1,0,-1
 EndSplineSet
+Substitution2: "Rearrangement 7-1" uniE486
 EndChar
 
 StartChar: u11347
@@ -4662,6 +4784,8 @@ SplineSet
  79 -152 l 1,91,-1
  66 -134 l 2,12,13
 EndSplineSet
+Substitution2: "Rearrangement 4-1" u11340
+Substitution2: "Rearrangement 1-1" u1133F
 Ligature2: "'pstf' Post Base Forms lookup 4-1" u1134D u1132F
 EndChar
 
@@ -4802,6 +4926,9 @@ SplineSet
  561 53 561 53 601 44 c 0,58,59
  639 37 639 37 648 3 c 1,16,-1
 EndSplineSet
+Substitution2: "Rearrangement 7-1" u1134D
+Substitution2: "Rearrangement 6-1" u11340
+Substitution2: "Rearrangement 3-1" u1133F
 Ligature2: "Repha-1" u11330 u1134D
 EndChar
 
@@ -12441,6 +12568,9 @@ SplineSet
  -9 507 -9 507 -3 525 c 128,-1,55
  3 543 3 543 3 570 c 0,44,45
 EndSplineSet
+Substitution2: "Rearrangement 6-1" uniE485
+Substitution2: "Rearrangement 5-1" uniE484
+Substitution2: "Rearrangement 4-1" uniE483
 EndChar
 
 StartChar: uniE202
@@ -12549,6 +12679,8 @@ SplineSet
  -552 -501 -552 -501 -558 -498 c 1,32,-1
  -540 -444 l 1,0,-1
 EndSplineSet
+Substitution2: "Rearrangement 5-1" u11340
+Substitution2: "Rearrangement 2-1" u1133F
 Ligature2: "'rkrf' Rakar Forms lookup 3-1" u1134D u11330
 EndChar
 
@@ -12680,6 +12812,9 @@ SplineSet
  91 456 l 1,39,-1
  86 419 l 1,0,-1
 EndSplineSet
+Substitution2: "Rearrangement 3-1" uniE482
+Substitution2: "Rearrangement 2-1" uniE481
+Substitution2: "Rearrangement 1-1" uniE480
 EndChar
 
 StartChar: uniE104
@@ -36767,6 +36902,62 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 51 70412 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniE480
+Encoding: 58496 58496 193
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 1-1" uniE201
+EndChar
+
+StartChar: uniE481
+Encoding: 58497 58497 194
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 2-1" uniE202
+EndChar
+
+StartChar: uniE482
+Encoding: 58498 58498 195
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 3-1" uniE200
+EndChar
+
+StartChar: uniE483
+Encoding: 58499 58499 196
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 4-1" uniE201
+EndChar
+
+StartChar: uniE484
+Encoding: 58500 58500 197
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 5-1" uniE202
+EndChar
+
+StartChar: uniE485
+Encoding: 58501 58501 198
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 6-1" uniE200
+EndChar
+
+StartChar: uniE486
+Encoding: 58502 58502 199
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Rearrangement 7-1" uniE200
 EndChar
 EndChars
 EndSplineFont
