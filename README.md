@@ -8,7 +8,7 @@ In the late 1990s, Sri. S. Kunchithapatha Kurukkal, Sri. K. Harihara Sarma & Sri
 
 ## How to Use
 
-### On OSX
+### On MacOS
 
 Download the font files from [releases](https://github.com/deepestblue/lankapuri/releases/) and drop them into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable.
 
