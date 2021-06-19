@@ -3,7 +3,7 @@ FontName: Kunchithapatham
 FullName: Kunchithapatham
 FamilyName: Kunchithapatham
 Weight: Book
-Copyright: Copy right.*  S.Kunchithapatha Kurukkal    K.Harihara  Sarma  &  K.I.Skandadasan., 38, Sri Ramanathan street, Colombo-13, SRILANKA.                                                   
+Copyright: Copy right.*  S.Kunchithapatha Kurukkal    K.Harihara  Sarma  &  K.I.Skandadasan., 38, Sri Ramanathan street, Colombo-13, SRILANKA.
 Version: 1.0 Sun May 31 14:09:51 1998
 ItalicAngle: 0
 UnderlinePosition: -337
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 896603991
-ModificationTime: 1623621427
+ModificationTime: 1624070486
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1036,7 +1036,7 @@ ShortTable: maxp 16
   1
   1
 EndShort
-LangName: 1033 "" "" "KISN" "Alts:Kunchithapatham" "" "1.0 Sun May 31 14:09:51 1998"
+LangName: 1033 "" "" "KISN" "" "" "1.0 Sun May 31 14:09:51 1998"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -10625,6 +10625,7 @@ SplineSet
  -52 -234 -52 -234 31 -119 c 0,33,34
  104 -18 104 -18 104 164 c 1,0,-1
 EndSplineSet
+LCarets2: 1 0
 Substitution2: "Rearrangement 5-1" u11340
 Substitution2: "Rearrangement 2-1" u1133F
 Substitution2: "Alternate rakara markers 2-1" uniE20A
