@@ -7,8 +7,8 @@ TYPEFACENAME2 = Kurukkal
 SRCPATH2 = ../src/$(TYPEFACENAME2).ttf
 
 install:
-	$(PS) $(BINDIR)/install_typeface.ps1 -Path $(SRCPATH1) -Name "$(TYPEFACENAME1) Regular"
-	$(PS) $(BINDIR)/install_typeface.ps1 -Path $(SRCPATH2) -Name "$(TYPEFACENAME2) Regular"
+	$(PS) $(BINDIR)/install_typeface.ps1 -Path $(SRCPATH1) -Name '$(TYPEFACENAME1) Regular'
+	$(PS) $(BINDIR)/install_typeface.ps1 -Path $(SRCPATH2) -Name '$(TYPEFACENAME2) Regular'
 
 regenerate_masters:
 	$(PS) $(BINDIR)/generate_images.ps1 -Rasteriser $(BINDIR)/rasterise_text_windows.exe -OutputRoot ../masters/windows/$(TYPEFACENAME1) -TypeFace $(SRCPATH1) -TestCases ../cases
