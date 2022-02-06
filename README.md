@@ -1,6 +1,6 @@
 # Lankapuri
 
-*Lankapuri* is a project to modernise two legacy Grantha typefaces.
+*Lankapuri* is a collection of modernised and Unicode‐aware legacy Grantha typefaces: Kunchithapatham and Kurukkal.
 
 ## History
 
