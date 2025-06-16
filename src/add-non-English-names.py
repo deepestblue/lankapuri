@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.9
+#!/opt/homebrew/opt/fonttools/libexec/bin/python3
 # encoding: utf-8
 
 import os
