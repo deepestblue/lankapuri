@@ -1,4 +1,4 @@
-BINDIR := ../alekhana_dist
+BINDIR := vendor/alekhana
 
 TYPEFACENAME1 := Kunchithapatham
 SRCPATH1 := ../src/${TYPEFACENAME1}.ttf
@@ -14,17 +14,20 @@ install: build
 	install -C -m 644 ${SRCPATH1} ~/Library/Fonts/
 	install -C -m 644 ${SRCPATH2} ~/Library/Fonts/
 
-regenerate_qt_masters: build
+fetch-alekhana:
+	./fetch_alekhana.sh
+
+regenerate_qt_masters: build fetch-alekhana
 	${BINDIR}/generate_images -d ../masters/qt/${TYPEFACENAME1} -r ${BINDIR}/rasterise_text_qt -t ${SRCPATH1} -c ../cases
 	${BINDIR}/generate_images -d ../masters/qt/${TYPEFACENAME2} -r ${BINDIR}/rasterise_text_qt -t ${SRCPATH2} -c ../cases
 
-regenerate_coretext_masters: build
+regenerate_coretext_masters: build fetch-alekhana
 	${BINDIR}/generate_images -d ../masters/coretext/${TYPEFACENAME1} -r ${BINDIR}/rasterise_text_coretext -t ${SRCPATH1} -c ../cases
 	${BINDIR}/generate_images -d ../masters/coretext/${TYPEFACENAME2} -r ${BINDIR}/rasterise_text_coretext -t ${SRCPATH2} -c ../cases
 
 regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 
-test: build
+test: build fetch-alekhana
 	${BINDIR}/run_tests -e ../masters/coretext/${TYPEFACENAME1} -r ${BINDIR}/rasterise_text_coretext -t ${SRCPATH1} -c ../cases
 	${BINDIR}/run_tests -e ../masters/coretext/${TYPEFACENAME2} -r ${BINDIR}/rasterise_text_coretext -t ${SRCPATH2} -c ../cases
 	${BINDIR}/run_tests -e ../masters/qt/${TYPEFACENAME1} -r ${BINDIR}/rasterise_text_qt -t ${SRCPATH1} -c ../cases
@@ -34,4 +37,4 @@ clean:
 	${RM} ${SRCPATH1} ${SRCPATH2}
 	-find ${TMPDIR} -iname 'run_tests*' -type d 2>/dev/null | xargs ${RM} -r
 
-.PHONY: build install regenerate_masters regenerate_qt_masters regenerate_coretext_masters test clean
+.PHONY: build install fetch-alekhana regenerate_masters regenerate_qt_masters regenerate_coretext_masters test clean
